@@ -1,0 +1,15 @@
+.row {
+    display: flex;
+    margin-top: 5px;
+
+    .cell {
+        flex-basis: 100px;
+        min-width: 100px;
+        flex-grow: 1;
+
+        &.header {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+    }
+}
